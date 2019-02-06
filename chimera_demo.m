@@ -1,8 +1,8 @@
 clear all;
 close all;
 
-[s1, sr1] = audioread('speech1.wav');
-[s2, sr2] = audioread('speech2.wav');
+[s1, sr1] = audioread('speech_long1.wav');
+[s2, sr2] = audioread('speech_long2.wav');
 
 [result1, result2] = chim_synth(s1, s2);
 
